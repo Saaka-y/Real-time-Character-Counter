@@ -1,7 +1,7 @@
 const text = document.getElementById("text-input");
 const counter = document.getElementById("char-count");
 
-//文字が入力されたら文字数表示を変更するイベント
+// 文字が入力されたら文字数表示を変更するイベント
 text.addEventListener("input", countChars);
 
 function countChars () {
